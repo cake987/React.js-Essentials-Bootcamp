@@ -24,3 +24,20 @@ function GreetingCard() {
 }
 
 export default GreetingCard;
+
+
+import React from 'react';
+import './App.css';
+import GreetingCard from './GreetingCard';
+
+function App() {
+  return (
+    <div className="App">
+      <h1>Simple Greeting Card</h1>
+      <GreetingCard />
+    </div>
+  );
+}
+
+export default App;
+
